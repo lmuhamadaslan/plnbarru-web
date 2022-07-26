@@ -21,22 +21,22 @@
                     </nav>
                 </div>
                 <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#patrolCheck" aria-expanded="false" aria-controls="collapseLayouts">
-                    <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                     Patrol Check
                     <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                 </a>
                 <div class="collapse" id="patrolCheck" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="<?= base_url('patrolcheck/k3') ?>">K3</a>
-                        <a class="nav-link" href="<?= base_url('patrolcheck/coalhandling') ?>">Coal Handling</a>
-                        <a class="nav-link" href="<?= base_url('patrolcheck/unit') ?>">Unit</a>
+                        <a class="nav-link" href="<?= base_url('patrolK3') ?>">K3</a>
+                        <a class="nav-link" href="<?= base_url('patrolCoalHandling') ?>">Coal Handling</a>
+                        <a class="nav-link" href="<?= base_url('patrolUnit') ?>">Unit</a>
                     </nav>
                 </div>
             </div>
         </div>
         <div class="sb-sidenav-footer">
             <div class="small">Logged in as:</div>
-            Start Bootstrap
+            La Ode Muhamad Aslan
         </div>
     </nav>
 </div>

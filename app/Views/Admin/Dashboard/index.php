@@ -70,5 +70,5 @@
     </main>
 
     <!-- footer -->
-    <!-- <?= $this->include('Admin/Layout/footer') ?> -->
+    <?= $this->include('Admin/Layout/footer') ?>
     <?= $this->endSection() ?>

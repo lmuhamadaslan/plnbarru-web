@@ -46,9 +46,18 @@ $routes->get('logsheet/coalhandling', 'Admin\LogsheetController::coalHandling');
 $routes->get('logsheet/unit', 'Admin\LogsheetController::unit');
 
 // controller Patrolcheck admin
-$routes->get('patrolcheck/k3', 'Admin\PatrolcheckController::k3');
-$routes->get('patrolcheck/coalhandling', 'Admin\PatrolcheckController::coalHandling');
-$routes->get('patrolcheck/unit', 'Admin\PatrolcheckController::unit');
+$routes->get('patrolK3', 'Admin\PatrolcheckController::k3');
+$routes->get('patrolK3/emergencyDiesel', 'Admin\PatrolcheckController::emergencyDiesel');
+$routes->get('patrolK3/fireFighting', 'Admin\PatrolcheckController::fireFighting');
+$routes->get('patrolK3/hydrantIndoor', 'Admin\PatrolcheckController::hydrantIndoor');
+$routes->get('patrolK3/hydrantOutdoor', 'Admin\PatrolcheckController::hydrantOutdoor');
+$routes->get('patrolK3/isipatrol1', 'Admin\PatrolcheckController::isiPatrol1');
+$routes->get('patrolK3/isipatrol2', 'Admin\PatrolcheckController::isiPatrol2');
+$routes->get('patrolK3/isipatrol3', 'Admin\PatrolcheckController::isiPatrol3');
+$routes->get('patrolK3/isipatrol4', 'Admin\PatrolcheckController::isiPatrol4');
+
+$routes->get('patrolCoalHandling', 'Admin\PatrolcheckController::coalHandling');
+$routes->get('patrolUnit', 'Admin\PatrolcheckController::unit');
 
 /*
  * --------------------------------------------------------------------

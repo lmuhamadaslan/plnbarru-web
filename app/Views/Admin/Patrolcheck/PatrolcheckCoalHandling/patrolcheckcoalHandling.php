@@ -4,9 +4,10 @@
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid px-4">
-        <h1 class="mt-4">Ini Halaman Unit</h1>
+            <h1 class="mt-4">ini halaman coalhandling Patrolcheck</h1>
         </div>
     </main>
+
     <?= $this->include('Admin/Layout/footer') ?>
 </div>
 <?= $this->endSection() ?>

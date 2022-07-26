@@ -7,17 +7,17 @@ class LogsheetController extends BaseController
 {
     public function k3()
     {
-        return view('Admin/Logsheet/k3');
+        return view('Admin/Logsheet/logsheetk3');
     }
 
     public function coalHandling()
     {
-        return view('Admin/Logsheet/coalHandling');
+        return view('Admin/Logsheet/logsheetcoalHandling');
     }
 
     public function unit()
     {
-        return view('Admin/Logsheet/unit');
+        return view('Admin/Logsheet/logsheetunit');
     }
 }
 ?>
